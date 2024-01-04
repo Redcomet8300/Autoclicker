@@ -15,10 +15,10 @@ class AutoClickerGUI:
         self.click_rate_entry = tk.Entry(master)
         self.click_rate_entry.pack()
 
-        self.start_button = tk.Button(master, text="Start", command=self.start_autoclick)
+        self.start_button = tk.Button(master, text="Start (F5)", command=self.start_autoclick)
         self.start_button.pack()
 
-        self.stop_button = tk.Button(master, text="Stop", command=self.stop_autoclick, state=tk.DISABLED)
+        self.stop_button = tk.Button(master, text="Stop (F5)", command=self.stop_autoclick, state=tk.DISABLED)
         self.stop_button.pack()
 
         self.autoclicking = False
